@@ -12,11 +12,11 @@ Package.onUse(function(api) {
   api.use("fortawesome:fontawesome@4.4.0");
   api.imply("fortawesome:fontawesome");
 
-  api.addAssets([
+  api.addFiles([
     'fonts/3OF9_NEW.TTF', 'client',
     'fonts/OpenSans-Light-webfont.ttf', 'client',
     'fonts/OpenSans-Regular-webfont.ttf', 'client'
-  ], 'client');
+  ], 'client', {isAsset: true});
 
   api.addFiles('fonts-barcode.css', 'client');
 });
