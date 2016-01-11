@@ -1,0 +1,30 @@
+
+.helveticas{
+    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, "OpenSans", Arial, "Lucida Grande", sans-serif;
+    font-weight: 300;
+}
+.barcode{
+    font-family: Barcode;
+    letter-spacing: 3px;
+}
+
+@font-face{
+    font-family: Barcode;
+    src: url('/packages/clinical_barcode/fonts/3OF9_NEW.TTF');
+}
+@font-face{
+    font-family: OpenSansLight;
+    src: url('/packages/clinical_fonts/fonts/OpenSans-Light-webfont.ttf');
+}
+@font-face{
+    font-family: OpenSans;
+    src: url('/packages/clinical_fonts/fonts/OpenSans-Light-webfont.ttf');
+}
+
+
+.OpenSans, .opensans{
+    font-family: "OpenSans";
+}
+.OpenSansLight, .opensans-light{
+    font-family: "OpenSansLight";
+}
