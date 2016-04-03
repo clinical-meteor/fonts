@@ -18,7 +18,7 @@ Package.onUse(function(api) {
     'fonts/OpenSans-Regular-webfont.ttf'
   ], 'client', {isAsset: true});
 
-  api.addFiles('fonts.css', 'client');
+  api.addFiles('client/fonts.css', 'client');
 });
 
 Package.onTest(function(api) {
