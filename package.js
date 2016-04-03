@@ -6,7 +6,8 @@ Package.describe({
   documentation: 'README.md'
 });
 
-Package.onUse(function(api) {
+
+Package.onUse(function (api) {
   api.versionsFrom('1.1.0.3');
 
   api.use("fortawesome:fontawesome@4.4.0");
@@ -16,12 +17,14 @@ Package.onUse(function(api) {
     'fonts/3OF9_NEW.TTF',
     'fonts/OpenSans-Light-webfont.ttf',
     'fonts/OpenSans-Regular-webfont.ttf'
-  ], 'client', {isAsset: true});
+  ], 'client', {
+    isAsset: true
+  });
 
   api.addFiles('client/fonts.css', 'client');
 });
 
-Package.onTest(function(api) {
+Package.onTest(function (api) {
   api.use('tinytest');
   api.use('clinical:fonts');
 });

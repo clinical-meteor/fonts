@@ -4,7 +4,7 @@ describe('clinical:fonts', function () {
 
   it('Application should use OpenSans or HelveticaNeue by default', function () {
     return client.execute(function () {
-      expect($('body').css('font-family')).to.equal('"OpenSans", "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif');
+      expect($('body').css('font-family')).to.equal('OpenSans, HelveticaNeue-Light, \'Helvetica Neue Light\', \'Helvetica Neue\', Helvetica, Arial, \'Lucida Grande\', sans-serif');
     });
   });
 });
