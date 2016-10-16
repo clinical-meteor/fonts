@@ -14,15 +14,15 @@ body{
 
 @font-face{
     font-family: Barcode;
-    src: font-url('/packages/clinical_barcode/fonts/3OF9_NEW.TTF') format('truetype');
+    src: url('/packages/clinical_fonts/fonts/3OF9_NEW.TTF') format('truetype');
 }
 @font-face{
     font-family: OpenSansLight;
-    src: font-url('/packages/clinical_fonts/fonts/OpenSans-Light-webfont.ttf') format('truetype');
+    src: url('/packages/clinical_fonts/fonts/OpenSans-Light-webfont.ttf') format('truetype');
 }
 @font-face{
     font-family: OpenSans;
-    src: font-url('/packages/clinical_fonts/fonts/OpenSans-Light-webfont.ttf') format('truetype');
+    src: url('/packages/clinical_fonts/fonts/OpenSans-Light-webfont.ttf') format('truetype');
 }
 
 
