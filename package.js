@@ -1,6 +1,6 @@
 Package.describe({
   name: 'clinical:fonts',
-  version: '1.1.2',
+  version: '1.1.3',
   summary: 'Fonts for healthcare applications - 3 of 9 barcode, fontawesome icons, and opensans.',
   git: 'http://github.com/clinical-meteor/clinical-fonts',
   documentation: 'README.md'
