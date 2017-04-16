@@ -1,6 +1,6 @@
 Package.describe({
   name: 'clinical:fonts',
-  version: '1.1.4',
+  version: '1.1.6',
   summary: 'Fonts for healthcare applications - 3 of 9 barcode, fontawesome icons, and opensans.',
   git: 'http://github.com/clinical-meteor/clinical-fonts',
   documentation: 'README.md'
@@ -16,7 +16,8 @@ Package.onUse(function (api) {
   api.addFiles([
     'fonts/3OF9_NEW.TTF',
     'fonts/OpenSans-Light-webfont.ttf',
-    'fonts/OpenSans-Regular-webfont.ttf'
+    'fonts/OpenSans-Regular-webfont.ttf',
+    'fonts/echolot.regular.ttf'
   ], 'client', {
     isAsset: true
   });

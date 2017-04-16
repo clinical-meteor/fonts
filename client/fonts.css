@@ -24,8 +24,17 @@ body{
     font-family: OpenSans;
     src: url('/packages/clinical_fonts/fonts/OpenSans-Light-webfont.ttf') format('truetype');
 }
+@font-face{
+    font-family: Blockchain;
+    src: url('/packages/clinical_fonts/fonts/echolot.regular.ttf') format('truetype');
+}
 
 
+
+
+.Blockchain, .blockchain{
+    font-family: "Blockchain";
+}
 .OpenSans, .opensans{
     font-family: "OpenSans";
 }
