@@ -59,3 +59,12 @@ Find a complete list of icons at the Font Awesome website:
 #### Licensing
 
 MIT and public-domain as far as I'm aware.  
+
+
+==================================
+#### Research  
+
+https://sansforgetica.rmit/  
+https://www.dyslexiefont.com/en/typeface/  
+https://www.npmjs.com/package/react-icons  
+
